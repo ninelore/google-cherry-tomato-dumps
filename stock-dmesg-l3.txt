@@ -1,0 +1,70 @@
+tomato-rev4 ~ # dmesg -l 3
+[    0.080695] reg-fixed-voltage pp3300-ldo-z5-regulator: Failed to register regulator: -517
+[    0.080743] reg-fixed-voltage pp3300-s3-regulator: Failed to register regulator: -517
+[    0.080796] reg-fixed-voltage pp3300-z2-regulator: Failed to register regulator: -517
+[    0.080840] reg-fixed-voltage pp4200-z2-regulator: Failed to register regulator: -517
+[    0.080881] reg-fixed-voltage pp5000-s5-regulator: Failed to register regulator: -517
+[    0.192393] mali 13000000.mali: IRQ JOB not found
+[    0.192449] mali 13000000.mali: IRQ MMU not found
+[    0.192503] mali 13000000.mali: IRQ GPU not found
+[    0.341495] reg-fixed-voltage pp3300-s3-regulator: Failed to register regulator: -517
+[    0.345171] mediatek-drm-dp 1c600000.dp_tx: Failed to get dptx clock: -2
+[    0.345942] mali 13000000.mali: IRQ JOB not found
+[    0.345949] mali 13000000.mali: IRQ MMU not found
+[    0.345952] mali 13000000.mali: IRQ GPU not found
+[    0.346059] debugfs: File 'uA_load' in directory '/' already present!
+[    0.346062] debugfs: File 'min_uV' in directory '/' already present!
+[    0.346063] debugfs: File 'max_uV' in directory '/' already present!
+[    0.346065] debugfs: File 'constraint_flags' in directory '/' already present!
+[    0.351797] hub 4-0:1.0: config failed, hub doesn't have any ports! (err -19)
+[    0.352588] hub 6-0:1.0: config failed, hub doesn't have any ports! (err -19)
+[    0.483074] debugfs: File 'uA_load' in directory '/' already present!
+[    0.483077] debugfs: File 'min_uV' in directory '/' already present!
+[    0.483079] debugfs: File 'max_uV' in directory '/' already present!
+[    0.483081] debugfs: File 'constraint_flags' in directory '/' already present!
+[    0.483096] debugfs: File 'uA_load' in directory '/' already present!
+[    0.483098] debugfs: File 'min_uV' in directory '/' already present!
+[    0.483099] debugfs: File 'max_uV' in directory '/' already present!
+[    0.483101] debugfs: File 'constraint_flags' in directory '/' already present!
+[    0.491261] mediatek-drm-dp 1c500000.edp_tx: Failed to get dptx clock: -2
+[    0.606304] Warning: unable to open an initial console. Fallback to ttynull.
+[    1.163953] udevd[334]: /lib/udev/rules.d/50-udev-default.rules:43 Unknown group 'sgx', ignoring
+[    1.496185] mediatek-drm-dp 1c500000.edp_tx: AUX err: DP noconnected
+[    8.600555] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@0
+[    8.600567] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@0
+[    8.600571] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@0
+[    8.600805] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@0
+[    8.600812] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@0
+[    8.600815] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@0
+[    8.600817] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@0
+[    8.600820] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@0
+[    8.600822] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@0
+[    8.600841] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@0
+[    8.600844] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@0
+[    8.600860] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@1
+[    8.600862] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@1
+[    8.600864] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@1
+[    8.600980] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@1
+[    8.600983] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@1
+[    8.600986] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@1
+[    8.600988] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@1
+[    8.600990] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@1
+[    8.600992] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@1
+[    8.601003] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@1
+[    8.601005] OF: graph: no port node found in /soc/spi@1100a000/ec@0/typec/connector@1
+[    8.946763] mdp_debug_init:start
+[    8.946878] [MTK-MDP3][ERR] mdp_alloc_reference_VA_by_name:80: DEV: cannot parse node name:mdp3-wdma0
+[    8.946921] [MTK-MDP3][ERR] mdp_alloc_reference_VA_by_name:80: DEV: cannot parse node name:mdp3-ccorr0
+[    8.946928] [MTK-MDP3][ERR] mdp_alloc_reference_VA_by_name:80: DEV: cannot parse node name:mediatek,larb
+[    8.946940] mdp_debug_init:end
+[    8.985784] sof-audio-of-mt8195 10803000.adsp: ipc tx error for 0x50040000 (msg/reply size: 124/124): -1040
+[    8.985800] sof-audio-of-mt8195 10803000.adsp: error: set/get ctrl ipc comp 9
+[    8.985868] sof-audio-of-mt8195 10803000.adsp: ipc tx error for 0x50040000 (msg/reply size: 144/144): -1040
+[    8.985874] sof-audio-of-mt8195 10803000.adsp: error: set/get ctrl ipc comp 9
+[    8.986866] sof-audio-of-mt8195 10803000.adsp: ipc tx error for 0x50040000 (msg/reply size: 124/124): -1040
+[    8.986881] sof-audio-of-mt8195 10803000.adsp: error: set/get ctrl ipc comp 1
+[    8.986948] sof-audio-of-mt8195 10803000.adsp: ipc tx error for 0x50040000 (msg/reply size: 144/144): -1040
+[    8.986954] sof-audio-of-mt8195 10803000.adsp: error: set/get ctrl ipc comp 1
+[  120.704489] EXT4-fs (loop8): VFS: Can't find ext4 filesystem
+[  332.233766] frecon[539]: Unable to set crtc:47 connector:32 Permission denied
+tomato-rev4 ~ #
